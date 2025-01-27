@@ -179,4 +179,4 @@ alpha=0.99;
 createDotGraphic(best_net_ab,{'uO','uI'});
 
 %% SURD 
-%please refer to "https://github.com/Computational-Turbulence-Group/SURD/blob/main/examples/E10_inner_outer.ipynb"
+%please refer to Martinez et. al Nat Commun 15, 9296 (2024) "https://github.com/Computational-Turbulence-Group/SURD/blob/main/examples/E10_inner_outer.ipynb"
