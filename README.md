@@ -1,4 +1,4 @@
-# compararive_test_of_causal_inference_tools
+# compararive test of causal inference tools
  Test of multiple causal inference tools on experimental TBL data
  In this matlab script we tested the inner-outer interaction of turbulent boundary layer with a series of causal inference tools.
  Tools tested:
