@@ -1,10 +1,10 @@
 %% LOAD DATA
 % Turbulent Boundary layer data from Univeristy of Melbourne
 % https://figshare.unimelb.edu.au/articles/dataset/Two-point_high_Reynolds_number_zero-pressure_gradient_turbulent_boundary_layer_dataset/12101088
-u_data_c1=load('.\Inner_outer_u_z32_c1.mat');
-u_data_c2=load('.\Inner_outer_u_z32_c2.mat');
-u_data_c3=load('.\Inner_outer_u_z32_c3.mat');
-load('.\Inner_outer_tbl_param.mat');
+u_data_c1=load('.\data\Inner_outer_u_z32_c1.mat');
+u_data_c2=load('.\data\Inner_outer_u_z32_c2.mat');
+u_data_c3=load('.\data\Inner_outer_u_z32_c3.mat');
+load('.\data\Inner_outer_tbl_param.mat');
 
 data_c1 = u_data_c1.data(1:25:end,:);data_c1=(data_c1-mean(data_c1,1))./std(data_c1,1);
 data_c2 = u_data_c2.data(1:25:end,:);data_c2=(data_c2-mean(data_c2,1))./std(data_c2,1);
